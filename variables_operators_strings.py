@@ -22,3 +22,11 @@ print("He is %d years old and is doing his %s."%(my_age,my_education));
 two = 2
 three = 3
 print("%d plus %d is %d"%(two,two,two+three));
+
+
+# %r is used to print string in quotes
+x = "This is good"
+print("I said: %r"%x);
+
+#repeating a string 10 times THIS IS COOL!
+print ("."*10);
