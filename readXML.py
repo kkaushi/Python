@@ -21,7 +21,7 @@ def fast_iter(context,conn,dbcursor,ctr, func):
             if ctr%100000==0:
                 print 'No of health questions: ',quesCount
         ctr+=1
-    print 'No of health questions: ',quesCount
+    print 'No of questions: ',quesCount
     del context
 
 def process_element(conn,dbcursor,elem):
